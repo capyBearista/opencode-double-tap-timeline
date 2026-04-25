@@ -35,7 +35,7 @@ Simply add to your `tui.json`:
 
 ## Notes
 
-Hitting `Escape` two times in quick succession will interrupt your existing prompt *and* invoke the timeline modal. Just hit `Escape` again to quickly exit out of the resulting modal.
+Hitting `Escape` two times in quick succession to interrupt your running prompt will *also* invoke the timeline modal. Just hit `Escape` again to quickly exit out of the resulting modal.
 
 ## License
 
