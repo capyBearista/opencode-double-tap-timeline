@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
   "name": "@capybearista/opencode-double-tap-timeline",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Double-tap Escape key to open the timeline modal, inspired by Claude Code's /rewind feature",
   "type": "module",
   "license": "MPL-2.0",

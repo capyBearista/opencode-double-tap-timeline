@@ -1,4 +1,4 @@
-# AGENTS.md - opencode-doubletap-timeline
+# AGENTS.md - opencode-double-tap-timeline
 
 ## OpenCode
 
