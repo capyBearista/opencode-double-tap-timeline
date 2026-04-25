@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "@capybearista/opencode-double-tap-timeline",
+  "version": "0.1.0",
+  "description": "Double-tap Escape key to open the timeline modal, inspired by Claude Code's /rewind feature",
+  "type": "module",
+  "license": "MPL-2.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./tui": "./dist/index.js"
+  },
+  "engines": {
+    "opencode": "^1.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": ">=1.14.24",
+    "@opentui/solid": ">=0.1.103"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "1.14.24",
+    "@opentui/solid": "0.1.103",
+    "@opentui/core": "0.1.103",
+    "@tsconfig/node22": "^22.0.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "opencode-timeline",
+    "timeline",
+    "escape",
+    "double-tap"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/capybearista/opencode-double-tap-timeline"
+  }
+}
